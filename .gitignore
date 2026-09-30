@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+venv/
+
+# Dataset
+dataset/
+
+# Supplied verification images
+verification_images/
+
+# Generated predictions
+runs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Training checkpoints
+*.pth
+*.pt
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local zip/archive
+*.zip
+
+outputs/cleaned_train_manifest.csv
+outputs/cleanvision_train_issues.csv
+outputs/validation_manifest.csv
+outputs/cleaning_exclusions.csv
